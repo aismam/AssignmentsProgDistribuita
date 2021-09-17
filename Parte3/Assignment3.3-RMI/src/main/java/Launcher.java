@@ -29,9 +29,9 @@ public class Launcher {
 
             Client clientA = new Client(3,3, stub, "Client A", randomPositions);
 
-            /*Client clientB = new Client(3,3, stub, "Client B", randomPositions);
+            Client clientB = new Client(3,3, stub, "Client B", randomPositions);
 
-            Client clientC = new Client(3,3, stub, "Client C", randomPositions);*/
+            Client clientC = new Client(3,3, stub, "Client C", randomPositions);
 
 
 

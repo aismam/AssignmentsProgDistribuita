@@ -2,7 +2,6 @@ package Client;
 
 import Game.PuzzleBoard;
 import Server.RemoteMethods;
-import Utility.UtilityFunctions;
 
 import javax.swing.*;
 import java.util.List;

@@ -26,10 +26,4 @@ public class Server implements RemoteMethods{
     public List<Integer> getRandomPositions() throws RemoteException {
         return this.randomPositions;
     }
-
-    @Override
-    public void register( String name) throws RemoteException {
-        clients.add(name);
-        System.err.println(name);
-    }
 }

@@ -9,6 +9,4 @@ public interface RemoteMethods extends Remote {
     void setPositions(List<Integer> position) throws RemoteException;
 
     List<Integer> getRandomPositions() throws RemoteException;
-
-    void register(String name) throws RemoteException;
 }
