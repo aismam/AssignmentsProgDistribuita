@@ -77,15 +77,7 @@ public class ServerConnectionHandler {
             e.printStackTrace();
         }
     }
-
-    public boolean isDiscardChange() {
-        return discardChange;
-    }
-
-    public void setDiscardChange(boolean discardChange) {
-        this.discardChange = discardChange;
-    }
-
+    
     public void join() throws InterruptedException {
         readFromServer.join();
     }
